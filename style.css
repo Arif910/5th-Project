@@ -1,0 +1,394 @@
+/* common code start here */
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+/* common code ends here */
+
+body{
+    scroll-behavior: smooth;
+    font-family:'Kumbh Sans', sans-serif !important;
+    color:#111;
+}
+
+.padding-5{
+    padding:75px 0px;
+}
+
+
+.bold-700{
+    font-weight:600;
+}
+
+
+/* navbar design start here */
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+
+
+.navbar-brand img{
+    height: 2.5rem;
+    width: auto;
+}
+
+.navbar-brand a{
+    font-size:1.6rem;
+    font-weight: 700;
+    color:black;
+    text-decoration:none;
+    letter-spacing:1px;
+    font-family:'Kumbh Sans', sans-serif;
+    margin-top: 10px !important;
+}
+
+.nav-style{
+    padding: 0.1rem 0 !important;
+    margin: 0rem 2rem !important;
+    font-size: 1.25rem;
+    font-weight: 700;
+    transition: .3s;
+
+    color:#111;
+    background-image: linear-gradient(120deg, #ffc658 0%, #ffc658 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0%;
+    background-position: 0 90%;
+    transition: background-size 0.2s ease-in;
+}
+
+
+.nav-style:hover{
+    background-size: 100% 100%;
+    color:#111;
+  
+}
+
+.nav-btn{
+    padding:15px 20px;
+    border:none;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.30rem;
+    font-weight: 700;
+    background-color: #d79006;
+    transition:.2s;
+}
+
+.nav-btn a{
+    color:black !important;
+    text-decoration:none;
+}
+
+.nav-btn:hover{
+    background: #ffd78b;
+}
+.nav-btn:focus{
+    background: #ffd78b;
+}
+
+/* navbar design ends here */
+
+/* workshop design start */
+.workshop-wraper{
+    padding:120px 50px;
+}
+
+.w-img1{
+    position:relative;
+}
+
+.w-img2{
+    position: absolute;
+    z-index:2;
+    right:auto;
+    bottom:-25px;
+    left:-10px;
+}
+
+.w-header{
+    font-family:'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size:3rem;
+
+    color: #111;
+}
+
+.wh-style{
+    text-decoration:none;
+    color:#111;
+    font-size: 1.75rem;
+    font-weight: inherit;
+    background-image: linear-gradient(120deg, #ffc658 0%, #ffc658 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 30%;
+    background-position: 0 90%;
+    transition: background-size 0.2s ease-in;
+}
+
+.wh-style:hover{
+    background-size: 100% 100%;
+    color:#111;
+    text-decoration:none;
+}
+
+.w-text{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.7rem;
+    line-height: 1.5;
+}
+
+.w-btn{
+    margin-top: 70px;
+}
+/* workshop design ends */
+
+/* About Us section design start */
+.about-section{
+    background-color: #f8f8f8;
+    color:#111;
+}
+
+
+
+.a-header{
+    font-size:3rem;
+}
+
+.a-text{
+    font-size: 1.25rem;
+    line-height: 2.3rem;
+    font-style: normal;
+    text-align:justify;
+}
+
+.ul{
+    font-size: 1.30rem;
+    line-height:2.5rem;
+    font-weight: 200;
+}
+/* About us section design ends */
+
+/* what we do section design start */
+.w-content{
+    position:relative;
+    margin-bottom:20px;
+}
+.d-h{
+    /* background-color: white;
+    position: absolute;
+    width: 73%;
+    left: 20%;
+    bottom: -30%; */
+
+
+    margin-left: 20%;
+    background-color: #ffffff;
+    padding: 2rem;
+    position: relative;
+    margin-top: -8rem;
+    right: 1rem;
+    z-index: 2;
+    border-radius: 0;
+}
+
+.d-text{
+    line-height:1.8rem;
+}
+
+.jumbotron{
+    background-color: #ffc658;
+}
+
+.j-text{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.7rem;
+    line-height: 1.5;
+}
+
+.j-container{
+    margin-top: 80px;
+}
+/* what we do section design end */
+
+/* Online streaming section design start */
+.s-img{
+    background-image: url(images/w4-.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:auto;
+    height:550px;
+    transition: .3s;
+    margin-bottom:100px;
+}
+
+.s-img:hover{
+    transform:scale(1.05);
+}
+
+.bi-style{
+    font-size: 60px;
+    color: white;
+    padding: 8px;
+    background-color: rgb(94 87 89 / 40%);
+    border-radius: 55%;
+
+}
+
+.straming-img{
+    position: relative;
+}
+
+.straeming-text{
+    margin-left: 20%;
+    background-color: #ffffff;
+    padding:1rem 2.5rem;
+    position: absolute;
+    margin-top: -3rem;
+    right: 1rem;
+    z-index: 2;
+    border-radius: 0;
+    font-weight: 800;
+
+}
+
+.s2-div{
+    margin-bottom: 220px;
+}
+
+.s-para{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    height: 70vh;
+    text-align: center;
+
+}
+
+.s-title{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.4rem;
+    font-style:italic;
+    display: block;
+}
+
+.s-subtitle{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 800;
+
+}
+
+.s-subtitle2{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    color:gray;
+}
+/* Online streaming section design end */
+
+/* contact us section design start */
+.form-style{
+    margin: 20px 0px;
+    padding:1.7rem;
+    border:none;
+    outline: none;
+    box-shadow: none;
+    font-size:1.6rem;
+    font-weight:600;
+    color:#171717;
+    transition: .4s;
+    width:100%;
+    background-color: #f8f8f8;
+
+
+}
+
+.form-style:focus{
+    box-shadow:none;
+    background-color: #f8f8f8;
+}
+
+.textarea-section{
+    resize: none;
+    box-shadow:none;
+    border:none;
+    outline:none;
+    box-shadow:none;
+     background-color: #f8f8f8;
+    font-size:1.6rem;
+    font-weight:600;
+    padding:15px;
+    height:150px !important;
+    
+}
+
+.textarea-section:focus{
+    box-shadow:none;
+     background-color: #f8f8f8;
+}
+
+
+
+/* contact us section design ends */
+
+/* footer section design start */
+.fs{
+    background-color: #000000;
+}
+
+.f-link{
+    text-decoration:none;
+    color:white;
+    font-size: 1.75rem;
+}
+
+.f-link:hover{
+    text-decoration:none;
+    color:white;
+}
+
+.fs-style{
+    text-decoration:none;
+    font-size: 1.75rem;
+    font-weight: inherit;
+    background-image: linear-gradient(120deg, #ffc658 0%, #ffc658 100%);
+    background-repeat: no-repeat;
+    background-size: 0% 0%;
+    background-position: 0 90%;
+    transition: background-size 0.1s ease-in;
+    padding: 5px;
+    display: block;
+}
+
+.fs-style:hover{
+    background-size: 100% 100%;
+    text-decoration:none;
+    color:#000000;
+}
+
+.fbs-style{
+    text-decoration:none;
+    font-weight: inherit;
+    background-image: linear-gradient(120deg, #ffc658 0%, #ffc658 100%);
+    background-repeat: no-repeat;
+    background-size: 0% 0%;
+    background-position: 0 90%;
+    transition: background-size 0.1s ease-in;
+    padding: 5px;
+}
+
+.fbs-style:hover{
+    background-size: 100% 100%;
+    text-decoration:none;
+    color:#000000 !important;
+}
+
+.padding-f5{
+    padding-top: 75px;
+    padding-bottom:25px;
+}
+/* footer section design ends */
